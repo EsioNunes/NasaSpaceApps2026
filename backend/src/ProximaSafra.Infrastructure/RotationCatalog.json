@@ -1,0 +1,439 @@
+{
+	"version": 1,
+	"cultures": [
+		{
+			"id": "soja",
+			"name": "Soja",
+			"botanicalFamily": "Fabaceae",
+			"cycleDays": {
+				"minimum": 100,
+				"maximum": 140
+			},
+			"temperatureCelsius": {
+				"minimum": 20,
+				"maximum": 30
+			},
+			"waterRequirement": {
+				"millimetersPerCycle": 625,
+				"criticalDryDaysMaximum": 10
+			},
+			"environmentalAttributes": {
+				"water": 65,
+				"climate": 80,
+				"erosion": 55,
+				"soil": 75,
+				"diversity": 60,
+				"cover": 60,
+				"operation": 85,
+				"economic": 90
+			},
+			"requiresIrrigation": false,
+			"knownRisks": [
+				"Déficit na floração e enchimento de grãos; repetição favorece doenças"
+			]
+		},
+		{
+			"id": "milho",
+			"name": "Milho",
+			"botanicalFamily": "Poaceae",
+			"cycleDays": {
+				"minimum": 100,
+				"maximum": 150
+			},
+			"temperatureCelsius": {
+				"minimum": 18,
+				"maximum": 32
+			},
+			"waterRequirement": {
+				"millimetersPerCycle": 550,
+				"criticalDryDaysMaximum": 7
+			},
+			"environmentalAttributes": {
+				"water": 65,
+				"climate": 80,
+				"erosion": 65,
+				"soil": 75,
+				"diversity": 75,
+				"cover": 75,
+				"operation": 85,
+				"economic": 90
+			},
+			"requiresIrrigation": false,
+			"knownRisks": [
+				"Estresse hídrico no florescimento; cigarrinha e enfezamentos"
+			]
+		},
+		{
+			"id": "sorgo",
+			"name": "Sorgo",
+			"botanicalFamily": "Poaceae",
+			"cycleDays": {
+				"minimum": 90,
+				"maximum": 130
+			},
+			"temperatureCelsius": {
+				"minimum": 20,
+				"maximum": 35
+			},
+			"waterRequirement": {
+				"millimetersPerCycle": 450,
+				"criticalDryDaysMaximum": 12
+			},
+			"environmentalAttributes": {
+				"water": 80,
+				"climate": 85,
+				"erosion": 70,
+				"soil": 70,
+				"diversity": 80,
+				"cover": 80,
+				"operation": 80,
+				"economic": 75
+			},
+			"requiresIrrigation": false,
+			"knownRisks": [
+				"Pulgões; risco de déficit hídrico severo"
+			]
+		},
+		{
+			"id": "milheto",
+			"name": "Milheto",
+			"botanicalFamily": "Poaceae",
+			"cycleDays": {
+				"minimum": 60,
+				"maximum": 100
+			},
+			"temperatureCelsius": {
+				"minimum": 22,
+				"maximum": 35
+			},
+			"waterRequirement": {
+				"millimetersPerCycle": 350,
+				"criticalDryDaysMaximum": 14
+			},
+			"environmentalAttributes": {
+				"water": 85,
+				"climate": 85,
+				"erosion": 85,
+				"soil": 75,
+				"diversity": 90,
+				"cover": 95,
+				"operation": 85,
+				"economic": 55
+			},
+			"requiresIrrigation": false,
+			"knownRisks": [
+				"Manejo inadequado pode permitir produção de sementes"
+			]
+		},
+		{
+			"id": "braquiaria",
+			"name": "Braquiária ruziziensis",
+			"botanicalFamily": "Poaceae",
+			"cycleDays": {
+				"minimum": 90,
+				"maximum": 180
+			},
+			"temperatureCelsius": {
+				"minimum": 20,
+				"maximum": 35
+			},
+			"waterRequirement": {
+				"millimetersPerCycle": 450,
+				"criticalDryDaysMaximum": 14
+			},
+			"environmentalAttributes": {
+				"water": 80,
+				"climate": 85,
+				"erosion": 95,
+				"soil": 85,
+				"diversity": 95,
+				"cover": 100,
+				"operation": 75,
+				"economic": 65
+			},
+			"requiresIrrigation": false,
+			"knownRisks": [
+				"Dessecação e competição com a cultura seguinte"
+			]
+		},
+		{
+			"id": "crotalaria_juncea",
+			"name": "Crotalária juncea",
+			"botanicalFamily": "Fabaceae",
+			"cycleDays": {
+				"minimum": 90,
+				"maximum": 130
+			},
+			"temperatureCelsius": {
+				"minimum": 20,
+				"maximum": 32
+			},
+			"waterRequirement": {
+				"millimetersPerCycle": 450,
+				"criticalDryDaysMaximum": 10
+			},
+			"environmentalAttributes": {
+				"water": 70,
+				"climate": 85,
+				"erosion": 85,
+				"soil": 90,
+				"diversity": 95,
+				"cover": 90,
+				"operation": 70,
+				"economic": 50
+			},
+			"requiresIrrigation": false,
+			"knownRisks": [
+				"Hospedeiros de nematoides variam conforme espécie; avaliar manejo"
+			]
+		},
+		{
+			"id": "crotalaria_spectabilis",
+			"name": "Crotalária spectabilis",
+			"botanicalFamily": "Fabaceae",
+			"cycleDays": {
+				"minimum": 100,
+				"maximum": 150
+			},
+			"temperatureCelsius": {
+				"minimum": 20,
+				"maximum": 32
+			},
+			"waterRequirement": {
+				"millimetersPerCycle": 400,
+				"criticalDryDaysMaximum": 10
+			},
+			"environmentalAttributes": {
+				"water": 75,
+				"climate": 80,
+				"erosion": 85,
+				"soil": 90,
+				"diversity": 95,
+				"cover": 85,
+				"operation": 70,
+				"economic": 45
+			},
+			"requiresIrrigation": false,
+			"knownRisks": [
+				"Sementes tóxicas; desempenho contra nematoides depende da espécie"
+			]
+		},
+		{
+			"id": "feijao",
+			"name": "Feijão-comum",
+			"botanicalFamily": "Fabaceae",
+			"cycleDays": {
+				"minimum": 75,
+				"maximum": 110
+			},
+			"temperatureCelsius": {
+				"minimum": 18,
+				"maximum": 28
+			},
+			"waterRequirement": {
+				"millimetersPerCycle": 400,
+				"criticalDryDaysMaximum": 5
+			},
+			"environmentalAttributes": {
+				"water": 55,
+				"climate": 70,
+				"erosion": 55,
+				"soil": 70,
+				"diversity": 75,
+				"cover": 55,
+				"operation": 75,
+				"economic": 80
+			},
+			"requiresIrrigation": false,
+			"knownRisks": [
+				"Sensível à seca na floração; doenças favorecidas por umidade"
+			]
+		},
+		{
+			"id": "cana",
+			"name": "Cana-de-açúcar",
+			"botanicalFamily": "Poaceae",
+			"cycleDays": {
+				"minimum": 360,
+				"maximum": 540
+			},
+			"temperatureCelsius": {
+				"minimum": 20,
+				"maximum": 35
+			},
+			"waterRequirement": {
+				"millimetersPerCycle": 1300,
+				"criticalDryDaysMaximum": 15
+			},
+			"environmentalAttributes": {
+				"water": 55,
+				"climate": 85,
+				"erosion": 75,
+				"soil": 75,
+				"diversity": 45,
+				"cover": 80,
+				"operation": 65,
+				"economic": 90
+			},
+			"requiresIrrigation": false,
+			"knownRisks": [
+				"Tráfego de máquinas e compactação; longo ciclo limita rotações"
+			]
+		},
+		{
+			"id": "girassol",
+			"name": "Girassol",
+			"botanicalFamily": "Asteraceae",
+			"cycleDays": {
+				"minimum": 90,
+				"maximum": 130
+			},
+			"temperatureCelsius": {
+				"minimum": 18,
+				"maximum": 30
+			},
+			"waterRequirement": {
+				"millimetersPerCycle": 500,
+				"criticalDryDaysMaximum": 8
+			},
+			"environmentalAttributes": {
+				"water": 65,
+				"climate": 75,
+				"erosion": 70,
+				"soil": 75,
+				"diversity": 90,
+				"cover": 75,
+				"operation": 70,
+				"economic": 70
+			},
+			"requiresIrrigation": false,
+			"knownRisks": [
+				"Doenças foliares e déficit na floração"
+			]
+		},
+		{
+			"id": "nabo_forrageiro",
+			"name": "Nabo forrageiro",
+			"botanicalFamily": "Brassicaceae",
+			"cycleDays": {
+				"minimum": 70,
+				"maximum": 110
+			},
+			"temperatureCelsius": {
+				"minimum": 12,
+				"maximum": 27
+			},
+			"waterRequirement": {
+				"millimetersPerCycle": 350,
+				"criticalDryDaysMaximum": 10
+			},
+			"environmentalAttributes": {
+				"water": 75,
+				"climate": 65,
+				"erosion": 85,
+				"soil": 90,
+				"diversity": 95,
+				"cover": 85,
+				"operation": 75,
+				"economic": 45
+			},
+			"requiresIrrigation": false,
+			"knownRisks": [
+				"Temperaturas elevadas podem limitar implantação"
+			]
+		},
+		{
+			"id": "guandu",
+			"name": "Feijão-guandu",
+			"botanicalFamily": "Fabaceae",
+			"cycleDays": {
+				"minimum": 120,
+				"maximum": 180
+			},
+			"temperatureCelsius": {
+				"minimum": 20,
+				"maximum": 32
+			},
+			"waterRequirement": {
+				"millimetersPerCycle": 500,
+				"criticalDryDaysMaximum": 14
+			},
+			"environmentalAttributes": {
+				"water": 80,
+				"climate": 85,
+				"erosion": 90,
+				"soil": 90,
+				"diversity": 95,
+				"cover": 95,
+				"operation": 65,
+				"economic": 50
+			},
+			"requiresIrrigation": false,
+			"knownRisks": [
+				"Porte elevado e manejo da biomassa"
+			]
+		},
+		{
+			"id": "algodao",
+			"name": "Algodão",
+			"botanicalFamily": "Malvaceae",
+			"cycleDays": {
+				"minimum": 150,
+				"maximum": 210
+			},
+			"temperatureCelsius": {
+				"minimum": 20,
+				"maximum": 32
+			},
+			"waterRequirement": {
+				"millimetersPerCycle": 650,
+				"criticalDryDaysMaximum": 8
+			},
+			"environmentalAttributes": {
+				"water": 60,
+				"climate": 80,
+				"erosion": 60,
+				"soil": 70,
+				"diversity": 85,
+				"cover": 60,
+				"operation": 60,
+				"economic": 85
+			},
+			"requiresIrrigation": false,
+			"knownRisks": [
+				"Alta exigência fitossanitária e operacional"
+			]
+		},
+		{
+			"id": "amendoim",
+			"name": "Amendoim",
+			"botanicalFamily": "Fabaceae",
+			"cycleDays": {
+				"minimum": 100,
+				"maximum": 140
+			},
+			"temperatureCelsius": {
+				"minimum": 20,
+				"maximum": 30
+			},
+			"waterRequirement": {
+				"millimetersPerCycle": 550,
+				"criticalDryDaysMaximum": 8
+			},
+			"environmentalAttributes": {
+				"water": 65,
+				"climate": 80,
+				"erosion": 65,
+				"soil": 75,
+				"diversity": 85,
+				"cover": 65,
+				"operation": 65,
+				"economic": 75
+			},
+			"requiresIrrigation": false,
+			"knownRisks": [
+				"Colheita pode revolver solo; doenças e qualidade sanitária"
+			]
+		}
+	]
+}

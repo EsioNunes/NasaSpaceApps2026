@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/ProximaSafra.Api/ProximaSafra.Api.csproj" />
+    <Project Path="src/ProximaSafra.Application/ProximaSafra.Application.csproj" />
+    <Project Path="src/ProximaSafra.Domain/ProximaSafra.Domain.csproj" />
+    <Project Path="src/ProximaSafra.Infrastructure/ProximaSafra.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ProximaSafra.Tests/ProximaSafra.Tests.csproj" />
+  </Folder>
+</Solution>

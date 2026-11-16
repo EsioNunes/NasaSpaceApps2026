@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ProximaSafra.Api": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63057;http://localhost:63058"
+    }
+  }
+}

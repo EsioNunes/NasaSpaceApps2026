@@ -1,0 +1,3 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup><ProjectReference Include="../ProximaSafra.Domain/ProximaSafra.Domain.csproj" /></ItemGroup>
+</Project>
