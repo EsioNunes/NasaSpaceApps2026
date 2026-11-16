@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Raster Root",
+    "slug": "raster-root",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.rasterroot.app",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "plugins": [
+      [
+        "react-native-maps",
+        {
+          "androidGoogleMapsApiKey": "***"
+        }
+      ],
+      "expo-location",
+      "expo-video"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "eb0d9618-1d7a-49f9-bd56-3573080cb039"
+      }
+    }
+  }
+}
